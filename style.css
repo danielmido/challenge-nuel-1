@@ -1,0 +1,79 @@
+body {
+  background-image: url(img/leaves.jpg);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Judul */
+.judul {
+  font-family: 'Dancing Script', cursive;
+  background-image: url(img/);
+}
+
+.judul h1 {
+  font-size: 3.5em;
+  text-align: center;
+
+  margin: 10px 10px 50px;
+}
+
+.judul p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Isi */
+.isi {
+  margin: 0 20px;
+
+  font-family: 'Merienda', cursive;
+}
+
+.isi p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.isi .parent {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.mb-zero p {
+  margin-bottom: 0;
+}
+
+.mb-one p {
+  margin-bottom: 10px;
+}
+
+.mt-zero p {
+  margin-top: 0;
+}
+
+/* Responsive Breakpoint */
+@media screen and (min-width: 768px) {
+
+  /* Judul */
+  .judul h1 {
+    font-size: 5.5em;
+    text-align: center;
+
+    margin: 10px 10px 50px;
+  }
+
+  .judul p {
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
